@@ -1,6 +1,6 @@
 That's a very detailed configuration guide\! I'll integrate the server start-up steps and create a complete, cohesive guide for setting up the **Tally Database Loader**.
 
-Since the second part of your input uses **MySQL** for the installation steps, I'll prioritize that database technology for the complete setup guide, while retaining the initial **MSSQL** and general Tally configuration details for completeness.
+Since the second part of your input uses **MySQL** for the installation steps, I'll prioritize that database technology for the complete setup guide, while retaining the initial **MYSQL** and general Tally configuration details for completeness.
 
 -----
 
@@ -16,11 +16,11 @@ This section explains how to configure the database and Tally connection setting
 
 ### 🗄️ Database Configuration Examples
 
-Below is a sample configuration block for connecting to a **Microsoft SQL Server (MSSQL)** database:
+Below is a sample configuration block for connecting to a **MYSQL** database:
 
 ```json
 "database": {
-    "technology": "mssql",
+    "technology": "mysql",
     "server": "localhost",
     "port": 1433,
     "ssl": false,
